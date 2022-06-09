@@ -1,1 +1,1 @@
-# if, ele, loops and functios
+# if, else, loops and functios
