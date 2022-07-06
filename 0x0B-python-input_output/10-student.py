@@ -1,5 +1,5 @@
-
-dule that defines the class Student
+#!/usr/bin/python3
+""" Module that defines the class Student
 """
 
 
