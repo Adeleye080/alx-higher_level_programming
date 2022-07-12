@@ -5,6 +5,7 @@ from models.base import Base
 
 class Rectangle(Base):
     """ class Base """
+
     def __init__(self, width, height, x=0, y=0, id=None):
         """ check input """
         super().__init__(id)
@@ -21,7 +22,7 @@ class Rectangle(Base):
     @property
     def height(self):
         """ check input """
-        return self._height
+        return self.__height
 
     @property
     def x(self):
