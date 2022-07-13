@@ -7,7 +7,6 @@ class square(Rectangle):
     """Represent a square."""
 
     def __init__(self, size, x=0, y=0, id=None):
-        super().__init__(size, size, x, y, id)
         """Initialize a new Square.
 
         Args:
@@ -16,6 +15,7 @@ class square(Rectangle):
             y (int): The y coordinate of the new Square.
             id (int): The identity of the new Square.
         """
+        super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
